@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px
+
+}
+body{
+    background: url(images/FOTO-4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+.image-container img{
+    border-radius: 30px;
+
+}
+.test-1{
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 8px;
+    width: 150px;
+    margin: 10px;
+}
+.test-1:hover{
+    background-color: azure;
+    background-size: cover;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.link-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition-duration: 0.6s;
+    transition: all .4s;
+}
+main{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.grid_card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+    gap: 30px;
+    column-gap: 20px;
+}
+.card {
+    width: fit-content;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    align-items:center;
+
+    
+}
+.card img{
+    width: 500px;
+    height: 400px;
+    position: center;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
